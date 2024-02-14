@@ -6,8 +6,8 @@ M.options = {}
 
 function M.setup(opts)
   local default_opts = {
-    openai_api_key = nil,
-    openai_model_id = "gpt-3.5-turbo",
+    openai_api_key = "test",
+    openai_model_id = "zephyr",
     language = "english",
     search_engine = "google",
     context = true,
